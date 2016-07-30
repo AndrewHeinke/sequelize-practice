@@ -1,0 +1,8 @@
+<h1>Users Page</h1>
+{{#each users}}
+<p>Name: {{name}}</p>
+<p>Email: {{email}}</p>
+<p>Password: {{password}}</p>
+<a href="/{{id}}/listings">{{name}}'s listings</a>
+<br>
+{{/each}}
